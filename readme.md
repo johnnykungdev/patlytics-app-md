@@ -13,7 +13,7 @@ Patlytics is a web application designed to help users analyze potential patent i
 # Local Setup
 1. Create an `.env` file in the project root folder and put the OpenAI API key as
 ```
-OPENAI_API_KEY=...<put your API key here>
+OPENAI_API_KEY=<put your API key here>
 ```
 
 you will need to find your Open AI key by visiting [https://platform.openai.com/](https://platform.openai.com/) and visit the dashboard. Go to the API Key section and create one if you don't already have it
