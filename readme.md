@@ -1,3 +1,6 @@
+# Online Readme 
+If you are not able to view this readme locally, please visit: [https://github.com/johnnykungdev/patlytics-app-md](https://github.com/johnnykungdev/patlytics-app-md)
+
 # Patlytics Application
 
 Patlytics is a web application designed to help users analyze potential patent infringements. This README provides instructions on how to set up and run the application locally.
