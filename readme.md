@@ -8,12 +8,12 @@ Patlytics is a web application designed to help users analyze potential patent i
 - __Recommend: Use WSL if you are on a Windows machine__
 
 # Local Setup
-1. Create an `.env` file and put the OpenAI API key as
+1. Create an `.env` file in the project root folder and put the OpenAI API key as
 ```
 OPENAI_API_KEY=...<put your API key here>
 ```
 
-you will need to find your Open AI key by visiting [https://platform.openai.com/](https://platform.openai.com/) and visit the dashboard. Go to the API Key section and create one if you don't already have it.
+you will need to find your Open AI key by visiting [https://platform.openai.com/](https://platform.openai.com/) and visit the dashboard. Go to the API Key section and create one if you don't already have it
 
 ![OpenAI dashboard](./readmeImages/image10.png)
 
@@ -21,15 +21,15 @@ you will need to find your Open AI key by visiting [https://platform.openai.com/
 
 ![docker build command](./readmeImages/image2.png)
 
-It may takes a while to finish the build. Wait until it is finished.
+It may takes a while to finish the build. Wait until it is finished
 
 ![build the docker image](./readmeImages/image3.png)
 
-3. In the terminal, in the root path of the application, run the command `sudo docker run -p 3000:3000 patlytics-app`.
+3. In the terminal, in the root path of the application, run the command `sudo docker run -p 3000:3000 patlytics-app`
 
 ![running Next.js in docker](./readmeImages/image11.png)
 
-3. Once the build is finished, visit `http://localhost:3000` and you should be able to see the home page. It may take some time to load the page or the analysis report in the beginning.
+4. Once the build is finished, visit `http://localhost:3000` and you should be able to see the home page. It may take some time to load the page or the analysis report in the beginning.
 
 ![home page](./readmeImages/image4.png)
 
@@ -37,7 +37,7 @@ It may takes a while to finish the build. Wait until it is finished.
 
 For development purpose, we would want to reflect our code changes with docker.
 
-3. In the terminal, in the project root folder, run the command `sudo docker-compose up --build`. If you installed Docker Desktop on Windows or Mac, you should be able to run this command. If you are on linux, you may need to install Docker Compose separately.
+- In the terminal, in the project root folder, run the command `sudo docker-compose up --build`. If you installed Docker Desktop on Windows or Mac, you should be able to run this command. If you are on linux, you may need to install Docker Compose separately.
 
 ![docker-compose command](./readmeImages/image12.png)
 
